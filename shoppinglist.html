@@ -2,36 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Shoppinglist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
-    <script async src="./js/shoppinglist.js"></script>
+    <script src="./js/shoppinglist.js" defer></script>
 </head>
 <body>
     <main>
-
         <section class="flex-container">
             <article class="flex-item flex-item-title">
-                SHOPPING LIST 
+                <h1>SHOPPING LIST</h1>
             </article>
             <article class="flex-item flex-item-button">
                 <ul id="addnew">
-                <input type="text" id="product" placeholder="type to add new item">
-                <button id="addbutton">+</button>
+                    <li>
+                        <input type="text" id="product" placeholder="Type to add a new item">
+                        <button id="addbutton">+</button>
+                    </li>
                 </ul>
-                
             </article>
             <article class="flex-item flex-item-listelement">
                 <ul id="ul-li"></ul>
-                <!---<input type="checkbox" id="checked">--->
             </article>
-
             <article class="flex-item flex-item-removebutton">
-                <button id="removebutton">clear</button>
-                </ul>
+                <button id="removebutton">Clear</button>
+            </article>
         </section>
-
     </main>
 </body>
 </html>
