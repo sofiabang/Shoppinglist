@@ -112,6 +112,7 @@ ul li {
 
 ul li button {
   border: none;
+  background-color: #fff;
 }
 
 /*Denne delen fikk jeg hjelp med fra https://moderncss.dev/pure-css-custom-checkbox-style/*/
